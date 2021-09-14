@@ -1,0 +1,12 @@
+// Startseite - Öffnungszeiten und Kontakt - Section
+.kontakt {
+  display: flex;
+  justify-content: space-between;
+  &-bild {
+    display: inline-block;
+    align-self: flex-end;
+  }
+  @media screen and (max-width: $mobile) {
+    display: block;
+  }
+}

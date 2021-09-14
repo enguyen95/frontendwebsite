@@ -1,0 +1,17 @@
+// Import Base Styles
+@import 'base/variables';
+@import 'base/colors';
+@import 'base/typographie';
+
+// Import Components Styles
+@import 'components/button';
+@import 'components/slider';
+@import 'components/accordeon';
+@import 'components/parallax';
+@import 'components/breadcrumbs';
+
+// Import Layout Styles
+@import 'layout/layout';
+@import 'layout/navigation';
+@import 'layout/content';
+@import 'layout/footer';

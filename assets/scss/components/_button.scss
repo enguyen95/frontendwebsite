@@ -1,0 +1,12 @@
+.uk-button-primary {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $white;
+    background-color: $navy;
+    text-transform: none;
+    margin-top: 1rem;
+    &:hover {
+        background-color: $leather;
+    }
+}

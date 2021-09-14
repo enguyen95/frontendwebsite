@@ -1,0 +1,68 @@
+// Base Navigation
+nav {
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: $white;
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7.688rem;
+    }
+    @media screen and (max-width: 920px) {
+        .wrapper {
+            width: 90%;
+        }
+    }
+}
+
+
+// Offcanvas Stylings
+.offcanvas {
+    .uk-offcanvas-overlay {
+        &::before {
+            background: $overlay-navy; 
+        }
+        .uk-offcanvas-bar {
+            width: 50%;
+            background: $white;
+            color: $navy;
+            @media screen and (max-width: 499px) {
+                width: 100%;
+            }
+            .uk-offcanvas-close {
+                top: 50px;
+                right: 20%;
+            }
+            .uk-nav {
+                margin: auto;
+                margin-top: 6rem !important;
+                margin-bottom: 0 !important;
+                li a {
+                    color: $navy;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    margin: 1rem 0;
+                    &:hover {
+                        color: $leather;
+                    }
+                }
+            }
+            .socials {
+                margin: auto;
+                margin-top: 1rem;
+                display: flex;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+

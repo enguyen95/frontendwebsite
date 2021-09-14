@@ -1,0 +1,36 @@
+.footer {
+  padding: 8rem 0 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  @media screen and (max-width: $tablet) {
+    display: block;
+    max-width: 90%;
+    div {
+      margin-top: 2rem;
+    }
+  }
+  &-adressen {
+    p {
+      margin: 0;
+    }
+  }
+  &-impressum {
+    display: flex;
+    flex-direction: column;
+  }
+  &-icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    &-socials {
+      a {
+        margin-right: 10px;
+      }
+    }
+    &-back {
+      justify-content: flex-end;
+      margin-left: 4rem;
+    }
+  }
+}
